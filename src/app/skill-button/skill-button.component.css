@@ -22,12 +22,15 @@
   
   /* État hover */
   .rectangular-button:hover {
-    background-color: #2980b9; /* couleur de fond lorsque la souris passe dessus */
+    background-color: var(--hover-contact-button); /* couleur de fond lorsque la souris passe dessus */
     color: var(--color-main-text);
   }
   
   /* Icône */
   .rectangular-button img {
+    width: 20%;
+    height: 20%;
+    background: none;
     margin-bottom: 10px; /* espacement à droite de l'icône */
   }
 
