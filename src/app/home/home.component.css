@@ -1,0 +1,9 @@
+/* Styles only applied on the home page */
+
+section {
+    color: var(--color-main-text);
+}
+
+#skill {
+    padding: 1rem;
+}

@@ -1,0 +1,39 @@
+/* Bouton rectangulaire */
+.rectangular-button {
+    width: 10%; /* largeur pleine écran */
+    padding: 15px; /* espacement intérieur */
+    margin: 1rem;
+    border: none; /* pas de bordure */
+    border-radius: 1rem;
+    background-color: var(--button-skill); /* couleur de fond */
+    color: var(--color-button-text); /* couleur de texte */
+    font-size: 18px; /* taille de police */
+
+    text-align: center; /* alignement du texte */
+    
+    cursor: initial; /* curseur de souris en forme de main */
+    transition: background-color 0.3s ease; /* transition pour le hover */
+
+    display: flex; /* utilisation de flexbox */
+    flex-direction: column; /* alignement en colonne */
+    align-items: center; /* alignement horizontalement centré */
+    justify-content: center; /* alignement verticalement centré */
+  }
+  
+  /* État hover */
+  .rectangular-button:hover {
+    background-color: #2980b9; /* couleur de fond lorsque la souris passe dessus */
+    color: var(--color-main-text);
+  }
+  
+  /* Icône */
+  .rectangular-button img {
+    margin-bottom: 10px; /* espacement à droite de l'icône */
+  }
+
+  /* Pour la responsivité */
+@media (max-width: 600px) {
+    .rectangular-button {
+      width: 80%; /* réduire la largeur à 80% pour les petits écrans */
+    }
+}
