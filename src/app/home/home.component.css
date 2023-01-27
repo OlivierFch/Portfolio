@@ -2,8 +2,67 @@
 
 section {
     color: var(--color-main-text);
+
 }
 
 #skill {
     padding: 1rem;
+    background-color: aqua;
 }
+
+.grid {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(10.75rem,21.5rem));
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    place-items: center;
+    place-content: center;
+  }
+  
+.div1 {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+}
+.div2 {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+}
+.div3 {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+}
+.div4 {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+}
+.div5 {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+}
+.div6 {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+}
+.div7 {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+}
+.div8 {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+}
+.div9 {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+}
+  

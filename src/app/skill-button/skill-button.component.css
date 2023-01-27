@@ -1,13 +1,16 @@
 /* Bouton rectangulaire */
+
 .rectangular-button {
+    
+  background-color: blue;
     width: 10%; /* largeur pleine écran */
     padding: 15px; /* espacement intérieur */
-    margin: 1rem;
+    margin: 1rem; /* espacement extérieur */
     border: none; /* pas de bordure */
     border-radius: 1rem;
     background-color: var(--button-skill); /* couleur de fond */
     color: var(--color-button-text); /* couleur de texte */
-    font-size: 18px; /* taille de police */
+    font-size: 1rem; /* taille de police */
 
     text-align: center; /* alignement du texte */
     
@@ -28,15 +31,66 @@
   
   /* Icône */
   .rectangular-button img {
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    height: 50%;
     background: none;
     margin-bottom: 10px; /* espacement à droite de l'icône */
   }
 
   /* Pour la responsivité */
-@media (max-width: 600px) {
+  @media (max-width: 600px) {
+      .rectangular-button {
+        width: 60%; /* réduire la largeur à 80% pour les petits écrans */
+        height: 60%;
+      }
+
+      .rectangular-button img {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 10px; /* espacement à droite de l'icône */
+      }
+  }
+
+  @media (max-width: 850px) {
     .rectangular-button {
       width: 80%; /* réduire la largeur à 80% pour les petits écrans */
+      height: 80%;
+      
     }
-}
+
+    .rectangular-button img {
+      width: 50%;
+      height: 50%;
+      margin-bottom: 10px; /* espacement à droite de l'icône */
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .rectangular-button {
+      width: 60%; /* réduire la largeur à 80% pour les petits écrans */
+      height: 60%;
+      font-size: 1.5rem;
+    }
+
+    .rectangular-button img {
+      width: 40%;
+      height: 40%;
+      margin-bottom: 10px; /* espacement à droite de l'icône */
+    }
+  }
+
+  @media (max-width: 2560px) {
+    .rectangular-button {
+      width: 12rem; /* réduire la largeur à 80% pour les petits écrans */
+      height: 8rem;
+      font-size: 2rem;
+    }
+
+    .rectangular-button img {
+      width: 3rem;
+      height: 3rem;
+      margin-bottom: 10px; /* espacement à droite de l'icône */
+    }
+
+    
+  }
